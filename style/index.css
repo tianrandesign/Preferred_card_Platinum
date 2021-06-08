@@ -15,15 +15,16 @@ body {
 }
 
 .bg{
-/*	background-image: url('../images/butterfly.png');
-	background-size: cover;*/
-	background: #faa41d;
+background-image: url('../images/bg.png');
+	background-size: cover;
+	border-radius: 8px;
+	/*background: #9fa4a4;*/
 	width: 400px;
 	height: 252px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border-radius: 8px;
+	
 	transform-style: preserve-3d;
 	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.18);
 
@@ -60,7 +61,7 @@ body {
 	
 }
 .year, .c1, .c2, .c3, .c4 {
-	color: #00253e; font-family: BentonSans, calibri, sans-serif; font-size: 12px; font-weight:500;
+	color: #231f45; font-family: BentonSans, calibri, sans-serif; font-size: 12px; font-weight:500;
 	position: absolute;
 transform: translateZ(5px);
 }
