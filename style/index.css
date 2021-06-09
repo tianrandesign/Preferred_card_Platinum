@@ -15,10 +15,10 @@ body {
 }
 
 .bg{
-background-image: url('../images/bg.png');
-	background-size: cover;
+/*background-image: url('../images/bg.png');
+	background-size: cover;*/
 	border-radius: 8px;
-	/*background: #9fa4a4;*/
+	
 	width: 400px;
 	height: 252px;
 	display: flex;
@@ -30,11 +30,11 @@ background-image: url('../images/bg.png');
 
 }
 .butterfly{
-	width:380px;
+	width:400px;
 	  position: relative;
   top: 0;
   left: 0;
-	transform: translateZ(25px);
+	transform: translateZ(0);
 	border-radius: 8px;
 }
 .butterfly_close{
